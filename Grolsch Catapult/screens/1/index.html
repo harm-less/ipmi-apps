@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gametest</title>
+    <link rel="stylesheet" href="assets/css/game.css">
+  </head>
+  <body onload="initGame();">
+    <canvas id="gameCanvas" width="675" height="675">
+      alternate content
+    </canvas>
+
+    <script>
+      var $$gamesetup = {
+        is_local: false,
+        tsps_ip: "192.168.1.241",
+        tsps_port: 7681,
+        gameWidth: 675,
+        gameHeight: 675
+      }
+    </script>
+
+    <script src="../../src/jquery-1.7.1.min.js"></script>
+    <script src="../../src/EaseJs/lib/easeljs-0.8.2.min.js"></script>
+    <script src="../../src/TweenJS/lib/tweenjs-0.6.2.min.js"></script>
+    <script src="../../src/TweenJS/lib/tweenjs-0.6.2.min.js"></script>
+    <script src="../../src/TSPS/TSPS-1.2.js"></script>
+    <script src="../../src/EaselBox/examples/js/lib/Box2dWeb-2.1.a.3.min.js"></script>
+    <script src="../../src/EaselBox/examples/js/easelBox.js"></script>
+
+    <script src="../../src/hackathon/Game.js"></script>
+    <script src="../../src/hackathon/game/websocket.js"></script>
+    <script src="../../src/hackathon/game/mousePerson.js"></script>
+    <script src="../../src/hackathon/TSPS/GameTSPS.js"></script>
+    <script src="../../src/hackathon/TSPS/src/follow.js"></script>
+    <script src="../../src/hackathon/TSPS/src/draw.js"></script>
+    <script src="../../src/hackathon/TSPS/src/catapult.js"></script>
+
+    <script src="assets/js/obj/animatedCircle.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+  </body>
+</html>

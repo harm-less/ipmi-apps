@@ -1,0 +1,137 @@
+.screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.screen.hidden {
+    display: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.tsps-person {
+    position: absolute;
+    z-index: 1000;
+}
+
+.pokemon {
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    margin: 50px;
+    overflow: hidden;
+    background: black;
+    background-repeat: no-repeat;
+}
+
+.diglet {
+    box-sizing: border-box;
+    height: 33.33333%;
+    width: 33.33333%;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.diglet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.diglet-wrapper {
+    position: absolute;
+    width: 206px;
+    height: 160px;
+    left: calc(50% - 103px);
+    bottom: calc(50% - 80px);
+}
+
+.diglet-cave {
+    background-image: url("../images/diglett_hidden.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 206px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.diglet-smash {
+    transform: scale(0);
+    transition: transform 100ms;
+}
+
+.smash .diglet-smash {
+    width: 244px;
+    height: 79px;
+    background-image: url("../images/smash.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 500;
+    transform: scale(1);
+}
+
+.diglet-popup-wrapper {
+    width: 78px;
+    height: 130px;
+    position: absolute;
+    left: 62px;
+    top: 0;
+    overflow: hidden;
+}
+
+.diglet-popup {
+    background-image: url("../images/diglett.png");
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 81px;
+    position: absolute;
+    left: 0;
+    bottom: -44px;
+    z-index: 0;
+    transition: bottom 150ms;
+}
+
+.diglet-popup.boo {
+    bottom: 38px;
+}
+
+.diglet-popup.dead {
+    background-size: 78px 35px;
+    background-position: center bottom;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.menu .logo {
+    position: absolute;
+    top: calc(50% - 157px);
+    top: 210px;
+    left: calc(50% - 322px);
+}
+
+.menu .button {
+    position: absolute;
+    top: calc(50% - 91px);
+    top: 655px;
+    left: calc(50% - 243px);
+}

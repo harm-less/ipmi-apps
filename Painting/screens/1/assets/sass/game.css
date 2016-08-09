@@ -1,0 +1,11 @@
+/* line 1, /Applications/MAMP/htdocs/wirelab/git/hackathon-wirelab/draw/assets/sass/game.scss */
+body {
+  background: #ccc; }
+
+/* line 5, /Applications/MAMP/htdocs/wirelab/git/hackathon-wirelab/draw/assets/sass/game.scss */
+#gameCanvas {
+  background: #fff;
+  border: 1px solid #aaa;
+  margin: auto; }
+
+/*# sourceMappingURL=game.css.map */

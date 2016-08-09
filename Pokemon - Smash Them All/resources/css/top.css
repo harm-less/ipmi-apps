@@ -1,0 +1,139 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+@font-face {
+  font-family: 'dimboregular';
+  src: url('../fonts/dimbo_regular-webfont.woff2') format('woff2'),
+       url('../fonts/dimbo_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.screen {
+  font-family: dimboregular;
+  letter-spacing: 0.04em;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-image: url("../images/ground.png");
+  background-repeat: repeat;
+}
+.screen.hidden {
+  display: none;
+}
+
+.cols {
+  height: 100%;
+  width: 100%;
+}
+.col {
+  color: white;
+  float: left;
+  font-size: 54px;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.col1 .logo {
+  margin-top: 60px;
+}
+.col1 p {
+  margin: 30px auto;
+  width: 710px;
+}
+.col1 {
+  padding-top: 110px;
+}
+.col1 svg{
+  margin-left: 100px;
+}
+.col2 {
+  padding-top: 75px;
+}
+.col2 p {
+  font-size: 50px;
+  margin: 30px auto 50px;
+  width: 710px;
+}
+.col3 .logo {
+  margin-top: 60px;
+}
+.col3 .button-medium {
+  background-image: url("../images/heart.png");
+}
+.col4 .button-medium {
+  background-image: url("../images/trophy-big.png");
+}
+.col3 p,
+.col4 p {
+  font-size: 67px;
+  position: absolute;
+  width: 100%;
+  bottom: 340px;
+}
+.col3 .button,
+.col4 .button {
+  position: absolute;
+  bottom: 170px;
+  left: 175px;
+}
+
+.col p.yellow {
+  color: #FFD438;
+}
+
+.button {
+  border: 3px solid white;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-small {
+  background-image: url("../images/trophy-small.png");
+  background-repeat: no-repeat;
+  background-position: left 30px top 30px;
+  font-size: 95px;
+  height: 138px;
+  line-height: 138px;
+  width: 484px;
+}
+.button-medium {
+  background-repeat: no-repeat;
+  background-position: left 45px top 42px;
+  font-size: 118px;
+  height: 173px;
+  line-height: 173px;
+  width: 602px;
+}
+.button-big {
+  font-size: 55px;
+  background-image: url("../images/instagram.png");
+  background-repeat: no-repeat;
+  background-position: left 30px top 27px;
+  height: 236px;
+  width: 710px;
+}
+.button-big div {
+  margin-top: 50px;
+  float: left;
+  margin-left: 245px;
+}
+
+
+
+video {
+  height: 100%;
+  width: auto;
+}

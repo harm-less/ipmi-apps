@@ -1,0 +1,7 @@
+{
+  "version": "2.1",
+  "screens": {
+    "1": "Diglett",
+    "2": "Score"
+  }
+}
