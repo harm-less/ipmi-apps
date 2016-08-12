@@ -3,7 +3,7 @@ $(function () {
     var game = window.game = {};
 
     var sendState = function () {
-        socket.emit('message', {
+        socket.emit('application.message', {
             score: game.score,
             time: game.time,
             state: game.state

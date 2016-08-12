@@ -6,6 +6,9 @@ These can be used within the system or as examples for new applications.
 
 ---
 
+## Voorbeeld Applicatie
+This application is an empty shell that contains all the functions you can use within the IPMI system. It also contains a small guide to get you started.
+
 ## Lifting Tiles
 This is a small application which flips tiles when you walk over them revealing images of certain companies.
 
