@@ -4,9 +4,17 @@ Apps built for the IPMI system.
 This repository contains all the available applications for the Interactive Projection Mapping Installation system. 
 These can be used within the system or as examples for new applications. 
 
+Within Wirelab you can connect to our TSPS server on  `192.168.1.241`, port is `7681`. Be sure to read the [FAQ](Example%20Application/FAQ.md) that can be found in the [Example Application](Example%20Application). Also checkout the code that is posted in there as it can *really* help you get started!
+
+```
+var tsps = new TSPS.Connection('192.168.1.241', '7681');
+tsps.connect();
+```
+_Code snippet of how to connect with our TSPS, for more information see the FAQ_
+
 ---
 
-## Voorbeeld Applicatie
+## Example Application
 This application is an empty shell that contains all the functions you can use within the IPMI system. It also contains a small guide to get you started.
 
 ## Lifting Tiles
